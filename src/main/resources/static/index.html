@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<style>
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 40px;
+  width: 300px;
+  height: 300px;
+  background-color: #f3f3f3;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+  margin: 10px;
+  transition: transform 0.3s ease;
+  border-radius: 10px;
+}
+
+.container:hover {
+  transform: scale(1.05);
+}
+
+.button {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  font-size: 16px;
+  margin-top: auto;
+  cursor: pointer;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #45a049;
+  transform: scale(1.1);
+}
+
+.container:nth-child(odd) {
+  background-color: #e5f2ff;
+}
+
+.container:nth-child(even) {
+  background-color: #ffe5e5;
+}
+
+.container:nth-child(3),
+.container:nth-child(4) {
+  width: 260px;
+  height: 260px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 24px;
+  color: #555;
+  margin-top: 0;
+  text-align: center;
+}
+
+p {
+  font-size: 14px;
+  color: #333;
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+</style>
+</head>
+<body>
+  <div class="container">  
+    <h1>Student Details and Form</h1>
+    <p>Click to enter student details.</p>
+    <a href="Student.jsp" class="button">Student Form</a>
+  </div>
+
+  <div class="container">  
+    <h1>Student Data and Access Links</h1>
+    <p>Click to access student data.</p>
+    <a href="Admin.jsp" class="button">Admin Page</a>
+  </div>
+  
+  <div class="container">  
+    <h1>Document Read</h1>
+    <p>Read <span class="bold">important documents</span> before processing.</p>
+    <a href="Document.html" class="button">Document</a>
+  </div>
+  
+  <div class="container">  
+    <h1>Project Links</h1>
+    <p>Explore <span class="bold">useful links</span> for the project.</p>
+    <a href="Links.html" class="button"> Links </a>
+  </div>
+</body>
+</html>
