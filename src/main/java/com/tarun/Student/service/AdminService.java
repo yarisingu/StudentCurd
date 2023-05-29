@@ -34,7 +34,7 @@ public class AdminService {
 			}
 		}else {
 			view.setViewName("Admin.jsp");
-			view.addObject("msg","Email Wrong");
+			view.addObject("msg","User Name / passcode Wrong");
 		}
 		return view;
 	}

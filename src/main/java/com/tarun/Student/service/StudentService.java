@@ -33,7 +33,7 @@ public class StudentService {
 			}
 		}
 		dao.save(student);
-		view.addObject("msg","Data Added Sucessfully");
+		view.addObject("msg","Your id: "+student.getId()+" is Generated");
 		return view;
 	}
 	

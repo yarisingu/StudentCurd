@@ -51,7 +51,7 @@
 
     <h1 class="red-text">${msg}</h1>
 
-    <h1>Here is the Student Data</h1>
+    <h1>You Can Acess Student Data</h1>
 </div>
 
 <%if(session.getAttribute("admin")==null){%>
@@ -59,10 +59,10 @@
     <form action="/login" method="post" class="form1">
         <div class="section">
             <label for="username">UserName:</label>
-            <input type="text" id="username" name="username"><br>
+            <input type="text" id="username" name="username"><br><br>
 
-            <label for="password">Password:</label>
-            <input type="password" id="password" name="password"><br>
+            <label for="password">Password :  </label>
+            <input type="password" id="password" name="password"><br><br>
 
             <button type="reset" class="button">Clear</button>
             <button type="submit" class="button">Submit</button>

@@ -80,7 +80,7 @@ hr {
 <body>
 <div class="container">
   <h1>Click To Enter Your Data</h1>
-  ${msg}
+ <h4 style="color: red;">${msg}</h4> 
   <a href="StudentData.jsp" class="button">Add Data</a><br>
   
   <hr>

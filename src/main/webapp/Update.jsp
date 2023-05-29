@@ -151,7 +151,7 @@
         <input type="number" id="year" name="year" required placeholder=" <%= student.getYear() %>"><br>
         <label for="studentId">Student ID Number:</label>
         <input type="text" id="studentId" name="studentId" required placeholder=" <%= student.getStudentId() %>"><br>
-        <label for="gpa">GPA :</label>
+        <label for="gpa">Percentage :</label>
         <input type="number" id="gpa" name="gpa" required placeholder=" <%= student.getGpa() %>"><br>
       </fieldset>
       <button type="reset">Clear Data</button>

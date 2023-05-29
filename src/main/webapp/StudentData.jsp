@@ -108,7 +108,7 @@
         <input type="text" id="dob" name="dob" required placeholder="Enter formate 1/02/2001 ">
 
         <label for="gender">Gender:</label>
-        <input type="text" id="gender" name="gender" required placeholder="Enter your gender">
+        <input type="text" id="gender" name="gender" required placeholder="Enter formate Male/Female">
 
         <label for="nationality">Nationality:</label>
         <input type="text" id="nationality" name="nationality" required placeholder="Enter your nationality">
@@ -123,7 +123,7 @@
         <input type="text" id="state" name="state" required placeholder="Enter your state">
 
         <label for="zip">Zip:</label>
-        <input type="text" id="zip" name="zip" required placeholder="Enter your zip code">
+        <input type="number" id="zip" name="zip" required placeholder="Enter your zip code">
 
         <label for="email">Email Address:</label>
         <input type="email" id="email" name="email" required placeholder="Enter your email address">
@@ -146,8 +146,8 @@
         <label for="studentId">Student ID Number:</label>
         <input type="text" id="studentId" name="studentId" required placeholder="Enter your student ID number">
 
-        <label for="gpa">GPA </label>
-        <input type="number" id="gpa" name="gpa" placeholder="Enter your GPA" required>
+        <label for="gpa">Percentage </label>
+        <input type="number" id="gpa" name="gpa" placeholder="Enter your Percentage" required>
       </fieldset>
 
       <button type="reset">Clear form</button>
